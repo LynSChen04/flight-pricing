@@ -3,9 +3,10 @@ import random
 import numpy as np
 from datetime import timedelta, datetime
 
-airports = ['JFK', 'LAX', 'ORD', 'DFW', 'SEA', 'MIA', 'BOS']
+airports = ['ATL', 'DFW', 'DEN', 'ORD', 'LAX', 'JFK', 'CLT', 'LAS', 'MCO', 'MIA', 'PHX', 'SEA', 'SFO', 'EWR',
+            'IAH', 'BOS', 'MSP', 'FLL', 'LGA', 'DTW', 'PHL', 'SLC', 'BWI', 'IAD', 'SAN', 'DCA', 'TPA', 'BNA']
 airlines = ['Delta', 'United', 'American', 'Southwest', 'AirCanada','JetBlue', 'Alaska Airlines', 'Spirit Airlines', 'Frontier Airlines']
-classes = ['Economy', 'Business']
+classes = ['Economy', 'Business', 'First']
 base_date = datetime.today()
 
 def generate_flight_data(n=500):

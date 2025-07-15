@@ -207,6 +207,6 @@ marimo/_lsp/
 __marimo__/
 
 # Local data files
-.csv
-.txt
-.json
+*.csv
+*.txt
+*.json
